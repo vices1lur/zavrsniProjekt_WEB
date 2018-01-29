@@ -18,7 +18,12 @@
 	margin-top: 150px;
 	text-transform: lowercase;
 }
+.mySlides {display:none;}
 
+.background-image {
+	background-image: url('img/ep_naturalblack.png');
+	background-size: cover;
+}
 @media screen and (max-width: 760px) {
 	.header {
 		height: 300px;
@@ -39,7 +44,7 @@
 
 .main-menu {
 	width: 100%;
-	background-color: #F1C40F;
+	background-color: #237b82;
 	display:none;
 }
 .main-menu li {
@@ -66,7 +71,7 @@
 .hamburger {
 	display: none;
 	height:100px;
-	background-color: #F1C40F;
+	background-color: #237b82;
 	text-align:right;
 	padding-right: 30px;
 }
@@ -141,7 +146,7 @@
 
 
 .contact-form {	
-	background-color: #F1C40F;
+	background-color: #237b82;
 	padding: 100px;
 }
 .contact-form h1 {
@@ -169,16 +174,17 @@
 }
 
 .footer {
-	height: 400px;
-	background: url('img/footer_bg.jpg') no-repeat;
+	height: 150px;
+	background: url('img/black-background-footer-menu-9.png') no-repeat;
 	background-size: cover;
 }
 .footer img {
 	margin: 100px 0 0 100px;
 }	
 .footer ul {
-	margin-top: 100px;
-	float: right;
+	margin-top: 50px;
+	float: center;
+	margin-bottom: 50px;
 }
 .footer ul li {
 	display: inline-block;
@@ -198,7 +204,7 @@
 	height: 250px;
 }
 .square-blocks .light-gray-bg {
-	font-size: 32pt;
+	font-size: 50pt;
 	background-color: #F0F0F0;
 }
 .square-blocks .dark-gray-bg {
@@ -238,7 +244,7 @@
 	text-transform: uppercase;
 }
 .sqare-blocks span {
-	font-size: 32;
+	font-size: 15;
 }	
 .square-blocks a {
 	color: #000;
